@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<title>
+    page2
+</title>
+<link rel ="stylesheet" 
+type="text/css" 
+href="find.css" />
+</head>
+<body class = "body">
+        <ul>
+                <li><a class="active" href="file:///C:/44563/A01Mayaluri/Mayaluri_Meghana.html#">Home</a></li>
+                <li><a href="file:///C:/44563/A01Mayaluri/find.html">Find</a></li>
+                <li><a href="file:///C:/44563/A01Mayaluri/contact.html">Contact</a></li>
+              </ul>
+               <p >Check ASCII Value  Here</p>
+             <p>
+                Enter any value 
+                <br> 
+                <input type="text" id="id1" name="text1">
+              <button onclick="myFunction()">Check</button>
+              </p>
+              <p id="demo" style="color:#1E1542;"></p>
+              
+              <script>
+              function myFunction(){
+                  var str=document.getElementById("id1");
+                  var a="ASCII Value is   ";
+              document.getElementById("demo").innerHTML =a+str.value.charCodeAt(0);
+              }
+              
+</script>
+</body> 
+</html>             
+
+
